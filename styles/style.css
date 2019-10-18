@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: none;
+}
+
+/*body {
+    max-width: 1600px;
+    width: 100%;
+}*/
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    /*padding: 0 15px;*/
+}
+
+.ba-header {
+    position: absolute;
+    width: 100%;
+}
+
+.ba-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.ba-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ba-menu__link {   
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;   
+}
+
+.slash:after {
+    content: '/';
+    opacity: 0.5;
+    margin: 0 50px;
+}
+
+.ba-hero {
+    min-height: 100vh;
+    background-image: url(../img/computer.png);
+    background-color: #3c4955;;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 45vh 0 0;
+    text-align: center;
+}
+
+.ba-hero__title {
+    /* Text style for "v, oici vo" */
+    font-family: "Big John";
+    font-size: 46px;
+    margin: 0 auto;
+}
+
+.ba-hero__desc {
+    /* Text style for "un templat" */
+    font-family: "Slim Joe";
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 12px 0 38px;
+}
+
+.ba-hero__btn {
+    width: 138px;
+    /* a - Style for "Button" */
+    padding: 13px 0 12px;
+    border: 2px solid #48bf72;
+    border-radius: 2px;
+    /* Style for "mes travau" */
+    color: #48bf72;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    
+}

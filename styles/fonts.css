@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('fonts/ProximaNova/proximanovaregular-webfont.woff2') format('woff2'),
+         url('fonts/ProximaNova/proximanovaregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Big John';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Big_John/Big_John.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Slim Joe';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Slim_Joe/Slim_Joe.woff') format('woff');
+}
+
