@@ -50,6 +50,7 @@ h1 {
     content: '/';
     opacity: 0.5;
     margin: 0 50px;
+    font-weight: 200;
 }
 
 .ba-hero {
